@@ -1,4 +1,3 @@
-import { NavlinkProps } from "../../types/NavlinkProps";
 import { Navlink } from "../../types/NavlinkProps";
 
 export const navlinks: Navlink[] = [
