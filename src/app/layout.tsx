@@ -10,6 +10,18 @@ export const metadata: Metadata = {
   description: "More of Next.js practice",
 };
 
+// declare global {
+//   interface Array<ElementType> {
+//     customMap: <ResultType>(
+//       callback: (
+//         value: ElementType,
+//         index: number,
+//         array: ElementType
+//       ) => ResultType
+//     ) => ElementType[];
+//   }
+// }
+
 export default function RootLayout({
   children,
 }: Readonly<{
