@@ -6,21 +6,9 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js 14 practice",
-  description: "More of Next.js practice",
+  title: "Next.js 14",
+  description: "Next.js practice",
 };
-
-// declare global {
-//   interface Array<ElementType> {
-//     customMap: <ResultType>(
-//       callback: (
-//         value: ElementType,
-//         index: number,
-//         array: ElementType
-//       ) => ResultType
-//     ) => ElementType[];
-//   }
-// }
 
 export default function RootLayout({
   children,
